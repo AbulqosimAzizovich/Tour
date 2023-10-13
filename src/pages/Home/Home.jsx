@@ -1,9 +1,26 @@
-import React from 'react'
+import Atp1 from "../../assets/images/Intro1.png";
+import Atp2 from "../../assets/images/Intro2.png";
+import Atp3 from "../../assets/images/Intro3.png";
+import Atp4 from "../../assets/images/Intro4.png";
+import Atp5 from "../../assets/images/Intro5.png";
+import "./style.scss";
 
-const Home = () => {
+const index = () => {
   return (
-    <div>Home</div>
-  )
-}
+    <section id="intro">
+      <div className="container">
+        <div className="intro__wrapper">
+          <div className="pct">
+            <img src={Atp1} alt="Atp" />
+            <img src={Atp2} alt="Atp" />
+            <img src={Atp3} alt="Atp" />
+            <img src={Atp4} alt="Atp" />
+            <img src={Atp5} alt="Atp" />
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
 
-export default Home
+export default index;

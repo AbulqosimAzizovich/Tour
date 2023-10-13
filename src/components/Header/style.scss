@@ -1,0 +1,235 @@
+header {
+  background-image: url("../../assets/images/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .nav__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    h1 {
+      color: #fff;
+      font-family: Nunito-ExtraBold;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 800;
+      line-height: 48px;
+    }
+
+    ul {
+      display: flex;
+      align-items: center;
+      gap: 50px;
+      li {
+        a {
+          color: #fff;
+          font-family: Montserrat-SemiBold;
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: 48px;
+        }
+      }
+    }
+
+    select {
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      text-indent: 1px;
+      text-overflow: "";
+      background-color: transparent;
+      border: none;
+      outline: none;
+      color: #fff;
+      font-family: Nunito-ExtraBold;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 800;
+      line-height: 48px;
+      option {
+        background: #fff;
+        color: rgba(30, 30, 30, 0.8);
+        font-family: Nunito-ExtraBold;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 48px;
+      }
+    }
+
+    .menu {
+      display: none;
+    }
+  }
+
+  .header__carousel {
+    margin: 246px auto;
+
+    .carousel__H {
+      div {
+        h3 {
+          width: 45%;
+          color: #fff;
+          font-family: Montserrat-SemiBold;
+          font-size: 64px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: 140%;
+        }
+
+        p {
+          margin-top: 20px;
+          width: 45%;
+          color: #fff;
+          font-family: Nunito-Regular;
+          font-size: 24px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+        }
+      }
+    }
+  }
+
+  .header__carousel1 {
+    margin: 246px auto;
+    display: none;
+    .carousel__H1 {
+      div {
+        h3 {
+          width: 45%;
+          color: #fff;
+          font-family: Montserrat-SemiBold;
+          font-size: 64px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: 140%;
+        }
+
+        p {
+          margin-top: 20px;
+          width: 45%;
+          color: #fff;
+          font-family: Nunito-Regular;
+          font-size: 24px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+        }
+      }
+    }
+  }
+}
+
+.slick-dots {
+  li {
+    button {
+      &::after {
+        background: #ffffff;
+        width: 10px;
+        height: 10px !important;
+        border-radius: 100%;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1237px) {
+  header {
+    background-position: center (50%);
+
+    .nav__wrapper {
+      gap: 30px;
+      h1 {
+        font-size: 15px;
+      }
+
+      ul {
+        li {
+          a {
+            font-size: 15px;
+          }
+        }
+      }
+
+      select {
+        font-size: 15px;
+        option {
+          font-size: 15px;
+        }
+      }
+    }
+
+    .header__carousel {
+      .carousel__H {
+        div {
+          h3 {
+            font-size: 54px;
+          }
+
+          p {
+            font-size: 18px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  header {
+    .nav__wrapper {
+      ul {
+        display: none;
+      }
+      select {
+        display: none;
+      }
+
+      .menu {
+        display: block;
+      }
+    }
+
+    .header__carousel {
+      .carousel__H {
+        div {
+          h3 {
+            font-size: 36px;
+          }
+          p {
+            font-size: 15px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 444px) {
+  header {
+    background-size: auto;
+    background-position: center;
+    .header__carousel {
+      display: none;
+    }
+
+    .header__carousel1 {
+      display: block;
+
+      .carousel__H1 {
+        div {
+          margin-bottom: 10px;
+          h3 {
+            width: 100%;
+            font-size: 36px;
+          }
+          p {
+            width: 100%;
+            font-size: 15px;
+          }
+        }
+      }
+    }
+  }
+}
