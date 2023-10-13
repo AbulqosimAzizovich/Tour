@@ -4,6 +4,17 @@
       display: flex;
       align-items: center;
       gap: 85px;
+      margin: 80px auto;
+    }   
+
+    iframe {
+      border-radius: 14px;
+      background: linear-gradient(
+          0deg,
+          rgba(0, 0, 0, 0.2) 0%,
+          rgba(0, 0, 0, 0.2) 100%
+        ),
+        url("../../assets/images/bg.jpg"), lightgray 50% / cover no-repeat;
     }
   }
 }

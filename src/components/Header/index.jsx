@@ -11,17 +11,17 @@ const index = () => {
     console.log();
   };
   return (
-    <header>
+    <header id="header">
       <div className="container">
         <nav>
           <div className="nav__wrapper">
             <h1>STORK TOUR</h1>
             <ul>
               <li>
-                <a href="#">Главная</a>
+                <a href="#header">Главная</a>
               </li>
               <li>
-                <a href="#">О компании</a>
+                <a href="#intro">О компании</a>
               </li>
               <li>
                 <a href="#">Путешествия</a>
