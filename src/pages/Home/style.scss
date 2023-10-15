@@ -3,9 +3,14 @@
     .pct {
       display: flex;
       align-items: center;
-      gap: 85px;
-      margin: 80px auto;
-    }   
+      gap: 85px 0;
+      justify-content: space-between;
+      padding: 10px 0;
+      img {
+        padding: 3%;
+        width: 20%;
+      }
+    }
 
     iframe {
       border-radius: 14px;

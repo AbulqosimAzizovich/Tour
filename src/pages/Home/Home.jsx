@@ -3,7 +3,7 @@ import Atp2 from "../../assets/images/Intro2.png";
 import Atp3 from "../../assets/images/Intro3.png";
 import Atp4 from "../../assets/images/Intro4.png";
 import Atp5 from "../../assets/images/Intro5.png";
-import Vd from "../../assets/Video/vd.mp4"
+import Vd from "../../assets/Video/vd.mp4";
 import "./style.scss";
 
 const index = () => {
